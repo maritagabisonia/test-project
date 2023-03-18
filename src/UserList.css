@@ -1,0 +1,39 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) minmax(300px, 1fr));
+  grid-gap: 20px;
+  
+  
+}
+.Profile{
+  border: 0.5px solid grey;
+  overflow: hidden;
+  margin: 0; 
+  padding: 0;
+  
+}
+
+.Name{
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 2px;
+
+}
+.Title{
+  margin-left: 10px;
+  margin-bottom: 2px;
+
+}
+
+.photo{
+  height: auto;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  padding: 20px ;
+
+}

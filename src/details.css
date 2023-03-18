@@ -1,0 +1,36 @@
+.photo{
+    height: 230px;
+    width: 300px;
+    margin: 25px;
+}
+.details{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+}
+
+.info{
+    margin-top: 50px ;
+    border: 1px solid black;
+    margin: 50px 5px ;
+    padding: 20px;
+}
+
+.name{
+    font-weight: bold;
+}
+.title{
+    font-style: italic;
+    margin-bottom: 25px;
+}
+.i{
+    text-decoration: underline;
+    
+}
+.paragrap{
+    margin: 0
+}
+
+.friendTitle{
+    padding-left: 20px;
+}
